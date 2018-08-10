@@ -1,0 +1,25 @@
+LINE 73  : 2018-07-25 15:09:11,447 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 208 : 2018-07-25 15:09:11,450 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:11,917 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 83  : 2018-07-25 15:09:12,118 [INFO    ] Analysis name: foo, Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2018-07-25 15:09:12,120 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:12,639 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 46
+LINE 99  : 2018-07-25 15:09:12,640 [DEBUG   ] Job ID:{'shortId': '4b4ut', 'userListId': 8093033}
+LINE 208 : 2018-07-25 15:09:12,641 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:13,076 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/view?userListId=8093033 HTTP/1.1" 200 880
+LINE 108 : 2018-07-25 15:09:14,078 [INFO    ] Submitted gene list:{'shortId': '4b4ut', 'userListId': 8093033}
+LINE 208 : 2018-07-25 15:09:14,080 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:15,922 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/enrich?userListId=8093033&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 118 : 2018-07-25 15:09:16,541 [DEBUG   ] Get enrichment results: Job Id:{'shortId': '4b4ut', 'userListId': 8093033}
+LINE 208 : 2018-07-25 15:09:16,542 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:18,368 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=8093033&filename=GO_Biological_Process_2018.foo.enrichr.reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 130 : 2018-07-25 15:09:18,372 [INFO    ] Downloading file of enrichment results: Job Id:{'shortId': '4b4ut', 'userListId': 8093033}
+LINE 138 : 2018-07-25 15:09:19,395 [DEBUG   ] Results written to: result/evaluation/enrichR/BP2018/GO_Biological_Process_2018.foo.enrichr.reports.txt
+LINE 658 : 2018-07-25 15:09:19,483 [DEBUG   ] Assigning font /b'F1' = 'C:\\Users\\jmjung\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf'
+LINE 710 : 2018-07-25 15:09:19,557 [DEBUG   ] Embedding font C:\Users\jmjung\Anaconda3\lib\site-packages\matplotlib\mpl-data\fonts\ttf\DejaVuSans.ttf.
+LINE 717 : 2018-07-25 15:09:19,557 [DEBUG   ] Writing TrueType font.
+LINE 658 : 2018-07-25 15:09:19,615 [DEBUG   ] Assigning font /b'F1' = 'C:\\Users\\jmjung\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf'
+LINE 710 : 2018-07-25 15:09:19,681 [DEBUG   ] Embedding font C:\Users\jmjung\Anaconda3\lib\site-packages\matplotlib\mpl-data\fonts\ttf\DejaVuSans.ttf.
+LINE 717 : 2018-07-25 15:09:19,681 [DEBUG   ] Writing TrueType font.
+LINE 152 : 2018-07-25 15:09:19,713 [INFO    ] Done.
+

@@ -1,0 +1,23 @@
+LINE 73  : 2018-07-25 15:09:07,821 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 83  : 2018-07-25 15:09:07,821 [INFO    ] Analysis name: foo, Enrichr Library: KEGG_2016
+LINE 208 : 2018-07-25 15:09:07,823 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:08,351 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 46
+LINE 99  : 2018-07-25 15:09:08,352 [DEBUG   ] Job ID:{'shortId': '4b4uq', 'userListId': 8093030}
+LINE 208 : 2018-07-25 15:09:08,354 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:08,824 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/view?userListId=8093030 HTTP/1.1" 200 880
+LINE 108 : 2018-07-25 15:09:09,826 [INFO    ] Submitted gene list:{'shortId': '4b4uq', 'userListId': 8093030}
+LINE 208 : 2018-07-25 15:09:09,827 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:10,404 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/enrich?userListId=8093030&backgroundType=KEGG_2016 HTTP/1.1" 200 None
+LINE 118 : 2018-07-25 15:09:10,405 [DEBUG   ] Get enrichment results: Job Id:{'shortId': '4b4uq', 'userListId': 8093030}
+LINE 208 : 2018-07-25 15:09:10,407 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-07-25 15:09:10,993 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=8093030&filename=KEGG_2016.foo.enrichr.reports&backgroundType=KEGG_2016 HTTP/1.1" 200 None
+LINE 130 : 2018-07-25 15:09:10,994 [INFO    ] Downloading file of enrichment results: Job Id:{'shortId': '4b4uq', 'userListId': 8093030}
+LINE 138 : 2018-07-25 15:09:11,212 [DEBUG   ] Results written to: result/evaluation/enrichR/KEGG2016/KEGG_2016.foo.enrichr.reports.txt
+LINE 658 : 2018-07-25 15:09:11,268 [DEBUG   ] Assigning font /b'F1' = 'C:\\Users\\jmjung\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf'
+LINE 710 : 2018-07-25 15:09:11,321 [DEBUG   ] Embedding font C:\Users\jmjung\Anaconda3\lib\site-packages\matplotlib\mpl-data\fonts\ttf\DejaVuSans.ttf.
+LINE 717 : 2018-07-25 15:09:11,321 [DEBUG   ] Writing TrueType font.
+LINE 658 : 2018-07-25 15:09:11,362 [DEBUG   ] Assigning font /b'F1' = 'C:\\Users\\jmjung\\Anaconda3\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf'
+LINE 710 : 2018-07-25 15:09:11,418 [DEBUG   ] Embedding font C:\Users\jmjung\Anaconda3\lib\site-packages\matplotlib\mpl-data\fonts\ttf\DejaVuSans.ttf.
+LINE 717 : 2018-07-25 15:09:11,419 [DEBUG   ] Writing TrueType font.
+LINE 152 : 2018-07-25 15:09:11,436 [INFO    ] Done.
+

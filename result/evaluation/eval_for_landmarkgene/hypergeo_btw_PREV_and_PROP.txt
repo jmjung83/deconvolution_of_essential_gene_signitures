@@ -1,0 +1,5 @@
+cell	GStype	TH	p_val	hit	all	sigGS	sigCP
+A375	pgCRISPR_14Shalem	0.1	4.81e-07	28	966	80	143
+BT20	pgshRNA_14Cowley	0.1	0.0666	8	361	42	46
+MCF7	pgshRNA_14Cowley	0.1	0.283	11	361	36	101
+A549	pgshRNA_08Luo	0.1	0.646	7	503	55	78
